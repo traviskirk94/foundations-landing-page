@@ -86,10 +86,9 @@ button {
 .third {
     background-color: #e5e7eb;
     display: flex;
-    margin: auto;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     padding: 120px;
 
 }
@@ -100,8 +99,11 @@ button {
     font-style: italic;
     color: #1f2936;
     display: flex;
-    margin: auto;
     flex: 0 1 auto;
+}
+
+#quote {
+
 }
 li {
     list-style-type: none;
